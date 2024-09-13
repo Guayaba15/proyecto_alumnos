@@ -1,22 +1,22 @@
 .images img {
-    width: 250px;  /* Cambia este valor según el tamaño deseado */
-    height: 350px; /* Mantén la altura fija para que todas las imágenes sean cuadradas */
-    object-fit: cover; /* Esto asegura que la imagen se ajuste sin distorsionarse */
+    width: 250px;  
+    height: 350px;
+    object-fit: cover; 
   }
   
   .card-title-custom {
-    font-size: 1rem; /* Tamaño base más pequeño */
+    font-size: 1rem; 
   }
   
   @media (max-width: 768px) {
     .card-title-custom {
-      font-size: 0.9rem; /* Tamaño más pequeño para pantallas medianas */
+      font-size: 0.9rem; /
     }
   }
   
   @media (max-width: 576px) {
     .card-title-custom {
-      font-size: 0.8rem; /* Tamaño aún más pequeño para pantallas pequeñas */
+      font-size: 0.8rem; 
     }
   }
   
